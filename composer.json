@@ -1,0 +1,31 @@
+{
+    "name": "wuyj/php-json-escpos",
+    "description": "ESC/POS Printer JSON Template Parser for PHP.",
+    "keywords": ["receipts", "template", "escpos", "ESC-POS", "print"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wuyj",
+            "email": "wuyj5@hotmail.com"
+        }
+    ],
+    "require": {
+        "ext-mbstring": "*",
+        "php": ">=7.0.0",
+        "mike42/escpos-php": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2|^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wuyj\\Escpos\\": "src/Escpos/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wuyj\\Escpos\\Test\\": "test/"
+        }
+    }
+}

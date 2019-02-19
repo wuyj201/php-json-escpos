@@ -1,0 +1,49 @@
+{
+  "order_sn": "0123456789",
+  "add_time": "2019/02/01",
+  "table_sn": "T100",
+  "cover": 4,
+  "refund_reason": "TOO EXPENSIVE",
+  "hide_refund_text": true,
+  "sub_total": 600,
+  "total": 540,
+  "discount": "90%",
+  "payTypeItems": [
+    {
+      "pay_name": "支付宝",
+      "en_name": "AliPay",
+      "amount": 540
+    }
+  ],
+  "hide_pay_type_list": false,
+  "foods": [
+    {
+      "remark": "remark test",
+      "hide_remark": true,
+      "item_name_en": "foods",
+      "item_quantity": 2,
+      "item_price": 100.00,
+      "item_name_zh": "食物",
+      "specs_items": [
+      ]
+    },
+    {
+      "remark": "remark test",
+      "hide_remark": false,
+      "item_name_en": "juice",
+      "item_quantity": 2,
+      "item_price": 200.00,
+      "item_name_zh": "饮料",
+      "specs_items": [
+        {
+          "item_attr_en": "No Ice",
+          "item_attr": "不加冰"
+        },
+        {
+          "item_attr_en": "No Sugar",
+          "item_attr": "不加糖"
+        }
+      ]
+    }
+  ]
+}

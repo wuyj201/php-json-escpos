@@ -1,0 +1,123 @@
+[
+  {
+    "styles": "alignCenter;fontBold;fontSize:2,2",
+    "text": [
+      "TITLE TITLE TITLE",
+      "",
+      "标题标题标题标题",
+      ""
+    ]
+  },
+  {
+    "styles": "fontSize:1,1",
+    "text": [
+      "订单号: ${order_sn}"
+    ]
+  },
+  {
+    "styles": "fontSize:1,1",
+    "text": [
+      "订单时间: ${add_time}"
+    ]
+  },
+  {
+    "styles": "alignSide:12,12",
+    "text": [
+      "座位号: ${table_sn}",
+      "用餐人数: ${cover}"
+    ]
+  },
+  {
+    "styles": "hidden:hide_refund_text",
+    "text": [
+      "原因:${refund_reason}"
+    ]
+  },
+  {
+    "styles": "strRepeat",
+    "text": [
+      "-"
+    ]
+  },
+  {
+    "styles": "each:foods;alignSide:17,-2,-5",
+    "text": [
+      {
+        "styles": "",
+        "text": [
+          [
+            "${item_name_en}",
+            "${item_quantity}",
+            "${item_price}"
+          ],
+          [
+            "${item_name_zh}",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "styles": "each:specs_items",
+        "text": [
+          [
+            "* ${item_attr_en} ${item_attr}",
+            "",
+            ""
+          ]
+        ]
+      },
+      {
+        "styles": "hidden:hide_remark",
+        "text": [
+          "* ${remark}",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "styles": "strRepeat",
+    "text": [
+      "-"
+    ]
+  },
+  {
+    "styles": "alignSide:-14,-10;fontSize:1,1",
+    "text": [
+      "小计:",
+      "${sub_total}"
+    ]
+  },
+  {
+    "styles": "alignSide:-14,-10;fontSize:1,1",
+    "text": [
+      "折扣:",
+      "${discount}"
+    ]
+  },
+  {
+    "styles": "alignSide:-14,-10;fontSize:1,1;fontBold",
+    "text": [
+      "总计:",
+      "${total}"
+    ]
+  },
+  {
+    "styles": "alignSide:8,8,-8;fontSize:1,1;fontBold",
+    "text": [
+      "支付方式",
+      "",
+      "金额"
+    ]
+  },
+  {
+    "styles": "each:payTypeItems;alignSide:8,8,-8",
+    "text": [
+      "${pay_name}",
+      "${en_name}",
+      "${amount}"
+    ]
+  }
+]
