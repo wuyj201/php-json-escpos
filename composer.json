@@ -1,7 +1,7 @@
 {
     "name": "wuyj/php-json-escpos",
     "description": "ESC/POS Printer JSON Template Parser for PHP.",
-    "keywords": ["receipts", "template", "escpos", "ESC-POS", "print"],
+    "keywords": ["receipts", "template", "escpos", "ESC-POS", "printer", "escpos"],
     "type": "library",
     "license": "MIT",
     "authors": [
