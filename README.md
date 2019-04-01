@@ -33,22 +33,22 @@ $printer->pulse();
 $printer->connect('10.10.10.201');
 $status = $printer->detect();
 switch ($status) {
-    case 1: 
-        echo 'OK';
-        $printer->close();
-        break;
+	case 1: 
+		echo 'OK';
+		$printer->close();
+		break;
 	case -1:
-        echo 'Not Connected';
-        break;
+		echo 'Not Connected';
+		break;
 	case 0x20:
-	    echo 'BTN PRESSED';
-	    break;
+		echo 'BTN PRESSED';
+		break;
 	case 0x08:
-	    echo 'BTN PRESSED';
-	    break;
+		echo 'BTN PRESSED';
+		break;
 	case 0x64:
-	    echo 'HARDWARE ERROR';
-	    break;
+		echo 'HARDWARE ERROR';
+		break;
 }
 ```
 
