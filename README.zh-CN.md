@@ -1,6 +1,6 @@
 # ESC/POS Print JSON formatted receipts on ESC/POS printers.
 
-基于[mike42/escpos-php](https://github.com/mike42/escpos-php) 封装一层类库，可以根据模板来打印小票。 在x-printer 80mm机型行运行正常。
+基于[mike42/escpos-php](https://github.com/mike42/escpos-php) 封装一层类库，可以根据模板来打印小票。 在x-printer 80mm上运行正常。
 
 [English](./README.md) | 简体中文
 
